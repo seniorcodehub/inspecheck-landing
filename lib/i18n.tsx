@@ -16,7 +16,7 @@ const dictionaries: Record<Locale, Dictionary> = {
   es: {
     nav_features: "Características",
     nav_how: "Cómo funciona",
-    nav_testimonials: "Testimonios",
+    nav_testimonials: "Clientes",
     nav_get_started: "Empezar",
 
     hero_title_1: "Plataforma de IA para la",
@@ -27,8 +27,7 @@ const dictionaries: Record<Locale, Dictionary> = {
     hero_cta_secondary: "Ver demo",
 
     features_title: "Características",
-    features_subtitle:
-      "Potencia tus inspecciones con inteligencia artificial",
+    features_subtitle: "Potencia tus inspecciones con inteligencia artificial",
 
     feature_forms_title: "Formularios Digitales Inteligentes",
     feature_forms_desc:
@@ -86,13 +85,13 @@ const dictionaries: Record<Locale, Dictionary> = {
     stat3_desc: "Automoción, industria, construcción...",
 
     testimonial_placeholder:
-      "Tu testimonio aparecerá aquí una vez empieces a usar Inspecheck.",
-    testimonial_author: "Responsable de Calidad",
-    testimonial_company: "Empresa Industrial",
+      "Inspecheck nos ha permitido digitalizar completamente nuestras inspecciones, eliminar el papeleo y reducir drásticamente los tiempos de procesamiento. La trazabilidad completa y los reportes automáticos han transformado nuestra gestión de calidad.",
+    testimonial_author: "Director de Calidad",
+    testimonial_company: "Fabricación Industrial y Automoción",
 
-    testimonials_title: "Lo que dicen nuestros clientes",
+    testimonials_title: "Nuestros Clientes",
     testimonials_sub:
-      "Únete a empresas que transforman sus inspecciones con Inspecheck",
+      "Empresas líderes en automoción, industria y finanzas confían en Inspecheck",
 
     cta_title: "¿Listo para transformar tus inspecciones?",
     cta_sub:
@@ -107,7 +106,7 @@ const dictionaries: Record<Locale, Dictionary> = {
   en: {
     nav_features: "Features",
     nav_how: "How It Works",
-    nav_testimonials: "Testimonials",
+    nav_testimonials: "Clients",
     nav_get_started: "Get Started",
 
     hero_title_1: "AI Platform for",
@@ -118,8 +117,7 @@ const dictionaries: Record<Locale, Dictionary> = {
     hero_cta_secondary: "Watch Demo",
 
     features_title: "Features",
-    features_subtitle:
-      "Power your inspections with artificial intelligence",
+    features_subtitle: "Power your inspections with artificial intelligence",
 
     feature_forms_title: "Smart Digital Forms",
     feature_forms_desc:
@@ -177,13 +175,13 @@ const dictionaries: Record<Locale, Dictionary> = {
     stat3_desc: "Automotive, industrial, construction...",
 
     testimonial_placeholder:
-      "Your testimonial will appear here once you start using Inspecheck.",
-    testimonial_author: "Quality Manager",
-    testimonial_company: "Industrial Company",
+      "Inspecheck has enabled us to completely digitize our inspections, eliminate paperwork and drastically reduce processing times. Complete traceability and automatic reports have transformed our quality management.",
+    testimonial_author: "Quality Director",
+    testimonial_company: "Industrial Manufacturing & Automotive",
 
-    testimonials_title: "What Our Clients Say",
+    testimonials_title: "Our Clients",
     testimonials_sub:
-      "Join companies transforming their inspections with Inspecheck",
+      "Leading companies in automotive, industrial and financial sectors trust Inspecheck",
 
     cta_title: "Ready to Transform Your Inspections?",
     cta_sub:
@@ -234,4 +232,3 @@ export function useI18n() {
   if (!ctx) throw new Error("useI18n must be used within I18nProvider");
   return ctx;
 }
-
